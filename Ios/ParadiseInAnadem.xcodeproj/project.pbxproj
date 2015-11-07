@@ -1,0 +1,525 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		7CF160F61BEE416F0094D0DA /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 7CF160F51BEE416F0094D0DA /* main.m */; };
+		7CF160F91BEE416F0094D0DA /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 7CF160F81BEE416F0094D0DA /* AppDelegate.m */; };
+		7CF160FC1BEE416F0094D0DA /* FirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7CF160FB1BEE416F0094D0DA /* FirstViewController.m */; };
+		7CF160FF1BEE416F0094D0DA /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7CF160FE1BEE416F0094D0DA /* SecondViewController.m */; };
+		7CF161021BEE416F0094D0DA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7CF161001BEE416F0094D0DA /* Main.storyboard */; };
+		7CF161041BEE416F0094D0DA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7CF161031BEE416F0094D0DA /* Assets.xcassets */; };
+		7CF161071BEE416F0094D0DA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7CF161051BEE416F0094D0DA /* LaunchScreen.storyboard */; };
+		7CF161121BEE416F0094D0DA /* ParadiseInAnademTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 7CF161111BEE416F0094D0DA /* ParadiseInAnademTests.m */; };
+		7CF1611D1BEE416F0094D0DA /* ParadiseInAnademUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 7CF1611C1BEE416F0094D0DA /* ParadiseInAnademUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		7CF1610E1BEE416F0094D0DA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7CF160E91BEE416F0094D0DA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7CF160F01BEE416F0094D0DA;
+			remoteInfo = ParadiseInAnadem;
+		};
+		7CF161191BEE416F0094D0DA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7CF160E91BEE416F0094D0DA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7CF160F01BEE416F0094D0DA;
+			remoteInfo = ParadiseInAnadem;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		7CF160F11BEE416F0094D0DA /* ParadiseInAnadem.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ParadiseInAnadem.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		7CF160F51BEE416F0094D0DA /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		7CF160F71BEE416F0094D0DA /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		7CF160F81BEE416F0094D0DA /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		7CF160FA1BEE416F0094D0DA /* FirstViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FirstViewController.h; sourceTree = "<group>"; };
+		7CF160FB1BEE416F0094D0DA /* FirstViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FirstViewController.m; sourceTree = "<group>"; };
+		7CF160FD1BEE416F0094D0DA /* SecondViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SecondViewController.h; sourceTree = "<group>"; };
+		7CF160FE1BEE416F0094D0DA /* SecondViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SecondViewController.m; sourceTree = "<group>"; };
+		7CF161011BEE416F0094D0DA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		7CF161031BEE416F0094D0DA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		7CF161061BEE416F0094D0DA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		7CF161081BEE416F0094D0DA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7CF1610D1BEE416F0094D0DA /* ParadiseInAnademTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ParadiseInAnademTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		7CF161111BEE416F0094D0DA /* ParadiseInAnademTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ParadiseInAnademTests.m; sourceTree = "<group>"; };
+		7CF161131BEE416F0094D0DA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7CF161181BEE416F0094D0DA /* ParadiseInAnademUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ParadiseInAnademUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		7CF1611C1BEE416F0094D0DA /* ParadiseInAnademUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ParadiseInAnademUITests.m; sourceTree = "<group>"; };
+		7CF1611E1BEE416F0094D0DA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7CF160EE1BEE416F0094D0DA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7CF1610A1BEE416F0094D0DA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7CF161151BEE416F0094D0DA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		7CF160E81BEE416F0094D0DA = {
+			isa = PBXGroup;
+			children = (
+				7CF160F31BEE416F0094D0DA /* ParadiseInAnadem */,
+				7CF161101BEE416F0094D0DA /* ParadiseInAnademTests */,
+				7CF1611B1BEE416F0094D0DA /* ParadiseInAnademUITests */,
+				7CF160F21BEE416F0094D0DA /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		7CF160F21BEE416F0094D0DA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7CF160F11BEE416F0094D0DA /* ParadiseInAnadem.app */,
+				7CF1610D1BEE416F0094D0DA /* ParadiseInAnademTests.xctest */,
+				7CF161181BEE416F0094D0DA /* ParadiseInAnademUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7CF160F31BEE416F0094D0DA /* ParadiseInAnadem */ = {
+			isa = PBXGroup;
+			children = (
+				7CF160F71BEE416F0094D0DA /* AppDelegate.h */,
+				7CF160F81BEE416F0094D0DA /* AppDelegate.m */,
+				7CF160FA1BEE416F0094D0DA /* FirstViewController.h */,
+				7CF160FB1BEE416F0094D0DA /* FirstViewController.m */,
+				7CF160FD1BEE416F0094D0DA /* SecondViewController.h */,
+				7CF160FE1BEE416F0094D0DA /* SecondViewController.m */,
+				7CF161001BEE416F0094D0DA /* Main.storyboard */,
+				7CF161031BEE416F0094D0DA /* Assets.xcassets */,
+				7CF161051BEE416F0094D0DA /* LaunchScreen.storyboard */,
+				7CF161081BEE416F0094D0DA /* Info.plist */,
+				7CF160F41BEE416F0094D0DA /* Supporting Files */,
+			);
+			path = ParadiseInAnadem;
+			sourceTree = "<group>";
+		};
+		7CF160F41BEE416F0094D0DA /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				7CF160F51BEE416F0094D0DA /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		7CF161101BEE416F0094D0DA /* ParadiseInAnademTests */ = {
+			isa = PBXGroup;
+			children = (
+				7CF161111BEE416F0094D0DA /* ParadiseInAnademTests.m */,
+				7CF161131BEE416F0094D0DA /* Info.plist */,
+			);
+			path = ParadiseInAnademTests;
+			sourceTree = "<group>";
+		};
+		7CF1611B1BEE416F0094D0DA /* ParadiseInAnademUITests */ = {
+			isa = PBXGroup;
+			children = (
+				7CF1611C1BEE416F0094D0DA /* ParadiseInAnademUITests.m */,
+				7CF1611E1BEE416F0094D0DA /* Info.plist */,
+			);
+			path = ParadiseInAnademUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		7CF160F01BEE416F0094D0DA /* ParadiseInAnadem */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7CF161211BEE416F0094D0DA /* Build configuration list for PBXNativeTarget "ParadiseInAnadem" */;
+			buildPhases = (
+				7CF160ED1BEE416F0094D0DA /* Sources */,
+				7CF160EE1BEE416F0094D0DA /* Frameworks */,
+				7CF160EF1BEE416F0094D0DA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ParadiseInAnadem;
+			productName = ParadiseInAnadem;
+			productReference = 7CF160F11BEE416F0094D0DA /* ParadiseInAnadem.app */;
+			productType = "com.apple.product-type.application";
+		};
+		7CF1610C1BEE416F0094D0DA /* ParadiseInAnademTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7CF161241BEE416F0094D0DA /* Build configuration list for PBXNativeTarget "ParadiseInAnademTests" */;
+			buildPhases = (
+				7CF161091BEE416F0094D0DA /* Sources */,
+				7CF1610A1BEE416F0094D0DA /* Frameworks */,
+				7CF1610B1BEE416F0094D0DA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7CF1610F1BEE416F0094D0DA /* PBXTargetDependency */,
+			);
+			name = ParadiseInAnademTests;
+			productName = ParadiseInAnademTests;
+			productReference = 7CF1610D1BEE416F0094D0DA /* ParadiseInAnademTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		7CF161171BEE416F0094D0DA /* ParadiseInAnademUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7CF161271BEE416F0094D0DA /* Build configuration list for PBXNativeTarget "ParadiseInAnademUITests" */;
+			buildPhases = (
+				7CF161141BEE416F0094D0DA /* Sources */,
+				7CF161151BEE416F0094D0DA /* Frameworks */,
+				7CF161161BEE416F0094D0DA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7CF1611A1BEE416F0094D0DA /* PBXTargetDependency */,
+			);
+			name = ParadiseInAnademUITests;
+			productName = ParadiseInAnademUITests;
+			productReference = 7CF161181BEE416F0094D0DA /* ParadiseInAnademUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		7CF160E91BEE416F0094D0DA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0710;
+				ORGANIZATIONNAME = "Flowerbell Technology Limited Company";
+				TargetAttributes = {
+					7CF160F01BEE416F0094D0DA = {
+						CreatedOnToolsVersion = 7.1;
+					};
+					7CF1610C1BEE416F0094D0DA = {
+						CreatedOnToolsVersion = 7.1;
+						TestTargetID = 7CF160F01BEE416F0094D0DA;
+					};
+					7CF161171BEE416F0094D0DA = {
+						CreatedOnToolsVersion = 7.1;
+						TestTargetID = 7CF160F01BEE416F0094D0DA;
+					};
+				};
+			};
+			buildConfigurationList = 7CF160EC1BEE416F0094D0DA /* Build configuration list for PBXProject "ParadiseInAnadem" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 7CF160E81BEE416F0094D0DA;
+			productRefGroup = 7CF160F21BEE416F0094D0DA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7CF160F01BEE416F0094D0DA /* ParadiseInAnadem */,
+				7CF1610C1BEE416F0094D0DA /* ParadiseInAnademTests */,
+				7CF161171BEE416F0094D0DA /* ParadiseInAnademUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		7CF160EF1BEE416F0094D0DA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7CF161071BEE416F0094D0DA /* LaunchScreen.storyboard in Resources */,
+				7CF161041BEE416F0094D0DA /* Assets.xcassets in Resources */,
+				7CF161021BEE416F0094D0DA /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7CF1610B1BEE416F0094D0DA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7CF161161BEE416F0094D0DA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7CF160ED1BEE416F0094D0DA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7CF160FF1BEE416F0094D0DA /* SecondViewController.m in Sources */,
+				7CF160F91BEE416F0094D0DA /* AppDelegate.m in Sources */,
+				7CF160FC1BEE416F0094D0DA /* FirstViewController.m in Sources */,
+				7CF160F61BEE416F0094D0DA /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7CF161091BEE416F0094D0DA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7CF161121BEE416F0094D0DA /* ParadiseInAnademTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7CF161141BEE416F0094D0DA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7CF1611D1BEE416F0094D0DA /* ParadiseInAnademUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		7CF1610F1BEE416F0094D0DA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7CF160F01BEE416F0094D0DA /* ParadiseInAnadem */;
+			targetProxy = 7CF1610E1BEE416F0094D0DA /* PBXContainerItemProxy */;
+		};
+		7CF1611A1BEE416F0094D0DA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7CF160F01BEE416F0094D0DA /* ParadiseInAnadem */;
+			targetProxy = 7CF161191BEE416F0094D0DA /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		7CF161001BEE416F0094D0DA /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7CF161011BEE416F0094D0DA /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		7CF161051BEE416F0094D0DA /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7CF161061BEE416F0094D0DA /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		7CF1611F1BEE416F0094D0DA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		7CF161201BEE416F0094D0DA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		7CF161221BEE416F0094D0DA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = ParadiseInAnadem/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = flowerbell.com.ParadiseInAnadem;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		7CF161231BEE416F0094D0DA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = ParadiseInAnadem/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = flowerbell.com.ParadiseInAnadem;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		7CF161251BEE416F0094D0DA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = ParadiseInAnademTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = flowerbell.com.ParadiseInAnademTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ParadiseInAnadem.app/ParadiseInAnadem";
+			};
+			name = Debug;
+		};
+		7CF161261BEE416F0094D0DA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = ParadiseInAnademTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = flowerbell.com.ParadiseInAnademTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ParadiseInAnadem.app/ParadiseInAnadem";
+			};
+			name = Release;
+		};
+		7CF161281BEE416F0094D0DA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = ParadiseInAnademUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = flowerbell.com.ParadiseInAnademUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = ParadiseInAnadem;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		7CF161291BEE416F0094D0DA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = ParadiseInAnademUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = flowerbell.com.ParadiseInAnademUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = ParadiseInAnadem;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		7CF160EC1BEE416F0094D0DA /* Build configuration list for PBXProject "ParadiseInAnadem" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7CF1611F1BEE416F0094D0DA /* Debug */,
+				7CF161201BEE416F0094D0DA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7CF161211BEE416F0094D0DA /* Build configuration list for PBXNativeTarget "ParadiseInAnadem" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7CF161221BEE416F0094D0DA /* Debug */,
+				7CF161231BEE416F0094D0DA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		7CF161241BEE416F0094D0DA /* Build configuration list for PBXNativeTarget "ParadiseInAnademTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7CF161251BEE416F0094D0DA /* Debug */,
+				7CF161261BEE416F0094D0DA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		7CF161271BEE416F0094D0DA /* Build configuration list for PBXNativeTarget "ParadiseInAnademUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7CF161281BEE416F0094D0DA /* Debug */,
+				7CF161291BEE416F0094D0DA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 7CF160E91BEE416F0094D0DA /* Project object */;
+}

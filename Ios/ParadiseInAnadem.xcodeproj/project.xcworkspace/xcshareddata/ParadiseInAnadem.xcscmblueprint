@@ -1,0 +1,30 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "2C2568E024CFF42EB3BF237CDCF17035357F756B",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "2C2568E024CFF42EB3BF237CDCF17035357F756B" : 0,
+    "0AEF8C6F776C5311F3A153F3B0AADF651225896B" : 0
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "1AD767E7-A495-4D79-9F09-29609A296425",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "2C2568E024CFF42EB3BF237CDCF17035357F756B" : "Ios\/",
+    "0AEF8C6F776C5311F3A153F3B0AADF651225896B" : ""
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "ParadiseInAnadem",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "ParadiseInAnadem.xcodeproj",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/9992800\/paradiseInAnadem.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "0AEF8C6F776C5311F3A153F3B0AADF651225896B"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/9992800\/paradiseInAnadem",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "2C2568E024CFF42EB3BF237CDCF17035357F756B"
+    }
+  ]
+}
